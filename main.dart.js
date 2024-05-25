@@ -111413,7 +111413,7 @@ var $async$zV=A.H(function(b,c){if(b===1)return A.D(c,r)
 while(true)switch(s){case 0:p=t.N
 o=A.ah(["country","Sierra Leone"],p,p)
 s=3
-return A.T(A.hQ(A.dW("http://api.famcaresl.com/psmsapp/index.php?route=dealer"),B.Z.hi(o),null),$async$zV)
+return A.T(A.hQ(A.dW("http://api.famcaresl.com/psmsapp/dealer.php"),B.Z.hi(o),null),$async$zV)
 case 3:n=c
 if(n.b===200){p=J.eh(B.Z.bJ(0,A.fF(A.fE(n.e).c.a.h(0,"charset")).bJ(0,n.w)),new A.aGM(),t.pK).kl(0,new A.aGN(a))
 q=A.S(p,!0,p.$ti.i("j.E"))
@@ -111573,7 +111573,7 @@ var $async$$0=A.H(function(a,b){if(a===1){p=b
 s=q}while(true)switch(s){case 0:e=o.a
 o.b.$1(new A.aGi(e))
 q=3
-n=A.dW("http://api.famcaresl.com/psmsapp/index.php?route=adddealer")
+n=A.dW("https://api.famcaresl.com/psmsapp/index.php?route=adddealer")
 i=t.N
 s=6
 return A.T(A.hQ(n,B.Z.FR(A.ah(["name",e.y1.a.a,"district",e.ok,"emailaddress",e.dy.a.a,"phonenumber",e.fr.a.a,"reg_date",e.to.a.a,"pprlno",e.x2.a.a,"nos",e.x1.a.a,"dateadded",e.cy.a.a],i,t.ob),null),A.ah(["Content-Type","application/json"],i,i)),$async$$0)
